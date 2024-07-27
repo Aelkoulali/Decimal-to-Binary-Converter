@@ -7,3 +7,5 @@ const result = document.getElementById("result");
 const checkUserInput  = () => {
     console.log(numberInput.value);
 };
+
+// addEventListener method to convertBtn
