@@ -9,3 +9,4 @@ const checkUserInput  = () => {
 };
 
 // addEventListener method to convertBtn
+convertBtn.addEventListener("click", checkUserInput);
