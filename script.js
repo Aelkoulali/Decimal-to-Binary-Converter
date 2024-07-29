@@ -5,7 +5,11 @@ const result = document.getElementById("result");
 
 // Function that do the decimal to binary conversion
 const decimalToBinary = (input) => {
-    return"1"; // 1 represents true
+    const inputs = [];
+    const quotients = [];
+    const remainders = [];
+
+    input = 0;
 
 };
 
