@@ -3,6 +3,11 @@ const numberInput = document.getElementById("number-input");
 const convertBtn = document.getElementById("convert-btn");
 const result = document.getElementById("result");
 
+// Function that do the decimal to binary conversion
+const decimalToBinary = (input) => {
+
+};
+
 // Function check user input 
 const checkUserInput  = () => {
     if (!numberInput.value ||
@@ -12,12 +17,14 @@ const checkUserInput  = () => {
         alert("Please provide a decimal number greater than or equal to 0");
         return;
     }
-    console.log(numberInput.value);
+    decimalToBinary(parseInt(numberInput.value));
+    numberInput.value = "";
 };
 
-// addEventListener method to convertBtn
+// Add addEventListener method to convertBtn
 convertBtn.addEventListener("click", checkUserInput);
-// Keydown event to numberInput
+
+// Add keydown event to numberInput
 numberInput.addEventListener("keydown", (e) => {
     if (e.key === "Enter") {
       checkUserInput();
