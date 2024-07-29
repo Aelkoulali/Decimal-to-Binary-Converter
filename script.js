@@ -5,6 +5,9 @@ const result = document.getElementById("result");
 
 // Function check user input 
 const checkUserInput  = () => {
+    if (!numberInput.value || parseInt(numberInput.value)) { 
+
+    }
     console.log(numberInput.value);
 };
 
