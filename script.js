@@ -10,3 +10,9 @@ const checkUserInput  = () => {
 
 // addEventListener method to convertBtn
 convertBtn.addEventListener("click", checkUserInput);
+// Keydown event to numberInput
+numberInput.addEventListener("keydown", (e) => {
+    if (e.key === "Enter") {
+      checkUserInput();
+    }
+  });
