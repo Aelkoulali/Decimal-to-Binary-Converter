@@ -6,6 +6,11 @@ const result = document.getElementById("result");
 // Function that do the decimal to binary conversion
 const decimalToBinary = (input) => {
     let binary = "";
+    while (input > 0) {
+        let binary = input % 2;
+        input = Math.floor(input / 2);
+      
+      };  
     result.innerText = binary;      
 };
 
