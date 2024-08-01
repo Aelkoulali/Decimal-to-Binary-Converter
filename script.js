@@ -15,20 +15,32 @@ const decimalToBinary = (input) => {
 
 // Function showAnimation
 const showAnimation = () => {
+  if (parseInt(numberInput.value) == 5 ) {
+    showAnimation();
+    return;
+  }
 
 };
 
 // Function check user input 
 const checkUserInput  = () => {
-    if (!numberInput.value ||
-        parseInt(numberInput.value)||
-        parseInt(numberInput.value < 0)
-     ) { 
-        alert("Please provide a decimal number greater than or equal to 0");
-        return;
-    }
-    decimalToBinary(parseInt(numberInput.value));
-    numberInput.value = "";
+  const inputInt = parseInt(numberInput.value);
+  if (
+    !numberInput.value ||
+    isNaN(inputInt) ||
+    inputInt < 0
+  ) {
+    alert("Please provide a decimal number greater than or equal to 0");
+    return;
+  }
+
+  if (inputInt === 5) {
+    showAnimation();
+    return;
+  }
+
+  result.textContent = decimalToBinary(inputInt);
+  numberInput.value = "";
 };
 
 // Add addEventListener method to convertBtn
