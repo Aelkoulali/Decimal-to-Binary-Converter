@@ -13,6 +13,10 @@ const decimalToBinary = (input) => {
     
 };
 
+// Function showAnimation
+const showAnimation = () => {
+
+};
 
 // Function check user input 
 const checkUserInput  = () => {
