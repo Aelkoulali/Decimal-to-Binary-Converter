@@ -5,17 +5,10 @@ const result = document.getElementById("result");
 
 // Function that do the decimal to binary conversion
 const decimalToBinary = (input) => {
-    let binary = "";
-    if (input == 0) {
-      binary = "0";
-    };
+  if ( input == 0){
+    return "";
+  };
     
-    while (input > 0) {
-      binary = (input % 2) + binary;
-      input = Math.floor(input / 2);
-      
-      };  
-    result.innerText = binary;      
 };
 
 
