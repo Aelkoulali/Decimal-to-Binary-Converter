@@ -34,10 +34,13 @@ const decimalToBinary = (input) => {
 
 // Function showAnimation
 const showAnimation = () => {
-  if (parseInt(numberInput.value) == 5 ) {
-    showAnimation();
-    return;
-  }
+  result.innerText = "Call Stack Animation";
+  animationData.forEach(obj => {
+    setTimeout(() => {
+
+    }, obj.addElDelay);
+
+  });
 
 };
 
