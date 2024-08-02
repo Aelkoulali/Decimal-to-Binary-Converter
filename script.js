@@ -2,6 +2,9 @@
 const numberInput = document.getElementById("number-input");
 const convertBtn = document.getElementById("convert-btn");
 const result = document.getElementById("result");
+const animationData = [
+  
+];
 
 // Function that do the decimal to binary conversion
 const decimalToBinary = (input) => {
