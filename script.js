@@ -51,7 +51,13 @@ const showAnimation = () => {
     }, obj.addElDelay);
     setTimeout(()=>{
       document.getElementById(obj.inputVal).textContent = obj.msg;
-    },obj.showMsgDelay)
+    }, obj.showMsgDelay);
+    setTimeout(()=> {
+      document.getElementById(obj.inputVal).remove();
+    }, obj.addElDelay);
+    setTimeout(()=> {
+
+    },20000);
     
   });
   };
