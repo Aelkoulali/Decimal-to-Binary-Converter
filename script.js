@@ -28,7 +28,6 @@ const animationData = [
     showMsgDelay: 5000,
     removeElDelay: 10000,
   }
-
 ];
 
 // Function that do the decimal to binary conversion
@@ -37,8 +36,7 @@ const decimalToBinary = (input) => {
     return String(input);
   } else {
     return decimalToBinary(Math.floor(input / 2)) + (input % 2);
-  }
-    
+  }    
 };
 
 // Function showAnimation
@@ -51,6 +49,10 @@ const showAnimation = () => {
       <p id="${obj.inputVal}" style="margin-top: ${obj.marginTop}px;" class="animation-frame">decimalToBinary(${obj.inputVal})</p>
       `;
     }, obj.addElDelay);
+    setTimeout(()=>{
+
+    },obj.showMsgDelay)
+    
   });
   };
 
