@@ -56,7 +56,7 @@ const showAnimation = () => {
       document.getElementById(obj.inputVal).remove();
     }, obj.addElDelay);
     setTimeout(()=> {
-
+      result.textContent = decimalToBinary(5); // test out the code by entering the number 5 into the number input and clicking the Convert button.
     },20000);
     
   });
