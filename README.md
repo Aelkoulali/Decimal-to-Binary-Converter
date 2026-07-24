@@ -13,3 +13,7 @@ In this project, JavaScript converts a decimal number to binary using recursion,
 - HTML
 - CSS
 - JavaScript
+
+##  ▶️ How to Run
+- Open index.html in your browser.
+
