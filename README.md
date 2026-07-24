@@ -10,6 +10,6 @@ In this project, JavaScript converts a decimal number to binary using recursion,
  - Building out a visual representation of the recursion process through an animation
 
 ## 🛠️ Tech Stack
--
--
--
+- HTML
+- CSS
+- JavaScript
