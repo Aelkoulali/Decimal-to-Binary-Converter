@@ -4,9 +4,12 @@ In this project, JavaScript converts a decimal number to binary using recursion,
 
 ## ✅ Key Concepts
  
-  JavaScript, HTML & CSS
-  Recursion concept
-  Exploring the call stack
-  Building out a visual representation of the recursion process through an animation
+ - JavaScript, HTML & CSS
+ - Recursion concept
+ - Exploring the call stack
+ - Building out a visual representation of the recursion process through an animation
 
 ## 🛠️ Tech Stack
+-
+-
+-
